@@ -1,0 +1,56 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Styling */
+.container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading */
+h1 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Input Styling */
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #3e8e41;
+}
+
+/* Result Styling */
+#result {
+    margin-top: 20px;
+}
